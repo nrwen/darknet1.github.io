@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://i.pinimg.com/originals/94/b9/c6/94b9c64e1c5d912bcfd3db9c6f988b15.gif);
+    background-position: calc();
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-left: -2%;
+}
+img {
+    width: 225px; /* Ширина изображения */
+    height: 205px; /* Высота изображения */
+    border-radius: 20px;
+    margin-top: 180px; /* Отступ сверху */
+    margin-left: 590px;
+}
+.buy-button {
+    background-color: #000000; /* Цвет кнопки */
+    color: rgb(255, 255, 255); /* Цвет текста кнопки */
+    border: none; /* Убираем рамку */
+    padding: 6px 22px; /* Отступы кнопки */
+    border-radius: 5px; /* Закругление углов */
+    position: absolute;
+    margin-top: 390px;
+    margin-left: 660px;
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 1s; /* Плавный переход цвета */
+}
+
+.buy-button:hover {
+    background-color: #ffffff; /* Цвет кнопки при наведении */
+}
